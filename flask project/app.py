@@ -42,7 +42,7 @@ def start():
     global start_executed
     if not start_executed:
         start_executed = True
-        return render_template('start.html')
+        return render_template('index.html')
     else:
         return redirect(url_for('registration_form'))
 
